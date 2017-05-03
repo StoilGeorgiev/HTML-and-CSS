@@ -1,0 +1,16 @@
+@media screen and (max-width: 780px){
+    body #wrapper > header nav ul{
+        justify-content: space-around;
+}
+    body #wrapper > header nav ul li{
+        width: 200px;
+    }
+    body #wrapper > header h1 a{
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 640px){
+    body #wrapper > header h1 a{
+        flex-direction: column;
+    }
+}

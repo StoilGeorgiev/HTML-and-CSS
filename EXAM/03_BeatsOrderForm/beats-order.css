@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=OpenSans:400,900');
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+body{
+    background: linear-gradient(to right,#14353F, #5F676E);
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+}
+main{
+    width: 900px;
+    margin: 40px auto;
+    background-color: #FAFAFA;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #4D545A;
+    height: 550px;
+    position: relative;
+}
+img{
+    position: relative;
+    height: 107%;
+    top: -3px;
+    left: 40px;
+
+}
+form{
+    width: 500px;
+    float: right;
+    text-align: left;
+    padding: 40px 50px 20px 50px;
+}
+h1, h2{
+    color: #9E9E9E;
+    text-transform: uppercase;
+    font-size: 2.3rem;
+    text-align: right;
+}
+h2{
+    color: #7D7D7D;
+    margin-bottom: 60px;
+    width: 100%;
+}
+.form-wrap{
+    text-align: right;
+}
+input{
+    position: relative;
+    width: 200px;
+    display: inline-block;
+    text-transform: capitalize;
+    color:#BABABA;
+    padding: 8px;
+    box-sizing: border-box;
+    padding-left: 40px ;
+    background: #FAFAFA;
+    border: none;
+    border-bottom: 1px solid #333;
+    z-index: 0;
+    margin-bottom: 20px;
+}
+input:nth-of-type(odd){
+    margin-left: 20px;
+}
+::-webkit-input-placeholder{
+    text-transform:uppercase;
+}
+#name{
+    display: block;
+    position: relative;
+    margin-left: 0;
+    left: 25px;
+
+}
+.icon{
+    position: relative;
+    color:#535353;
+    font-size: 1.5rem;
+    left: 25px;
+    display: inline;
+    z-index: 9999;
+
+}
+.user{
+    left: 30px;
+    top: 30px;
+}
+.country{
+    top: 3px;
+    left: 30px;
+}
+.address{
+    left: 55px;
+}
+.credit-card{
+    top: 5px;
+    left: 30px;
+}
+.lock{
+    left: 55px;
+    top: 5px;
+    font-size: 2rem;
+}
+button{
+    display: block;
+    margin-left: 70%;
+    margin-top: 15px;
+    background-color: #535E66;
+    color: #fff;
+    border-radius: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+    border: none;
+    padding: 5px 30px;
+}
+button:hover{
+    cursor: pointer;
+    background: #535353;
+}

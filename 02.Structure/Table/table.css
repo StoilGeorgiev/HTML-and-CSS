@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "Lato";
+    src: url(https://fonts.googleapis.com/css?family=Lato:300,400,900;)
+}
+body{
+    font-family: "Lato", sans-serif;
+}
+table{
+    color: #333;
+    border-spacing: 0px;
+    margin: 0 auto;
+}
+thead th{
+    color: #ffffff;
+    background-color: #90B4D6;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 5px 30px 5px 10px;
+}
+.bold{
+    padding: 5px 30px 5px 10px;
+    font-size: 18px;
+    margin: 0;
+    text-align: left;
+    background-color: #84B3AD;
+}
+td{
+    padding: 5px 30px 5px 10px;
+    font-size: 18px;
+    margin: 0;
+    text-align: left;
+    background-color: #84B3AD;
+    width: 150px;
+}
+tr:nth-child(even) td, tr:nth-child(even) th {
+   background-color: #689ad8;
+}

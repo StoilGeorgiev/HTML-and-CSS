@@ -1,0 +1,49 @@
+@media screen and (max-width: 640px) {
+    body{
+        box-sizing: border-box;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-primary{
+        flex-direction: column;
+        flex-basis: 100%;
+    }
+    nav li{
+        display: block;
+        text-align: center;
+        margin: 10px auto;
+    }
+    .nav-item > a{
+        margin-right: 0;
+    }
+    .solo{
+        text-align: center;
+        flex-basis: 100%;
+        height: inherit;
+    }
+    .second-row{
+        flex-direction: column;
+    }
+    .studio {
+        text-align: center;
+        height: inherit;
+        padding: 30px;
+    }
+    .mixr-left, .urbeats-right{
+        width: 100%;
+        align-items: center;
+        box-sizing: border-box;
+        background-size: cover;
+    }
+    .grid-gallery{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    .product-img{
+       flex-basis: 50%;
+        width: 50%;
+        height: 100%;
+    }
+}

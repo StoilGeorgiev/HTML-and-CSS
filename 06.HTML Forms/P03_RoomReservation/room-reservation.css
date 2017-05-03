@@ -1,0 +1,83 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+body{
+    font-family:Tahoma,Helvetica,sans-serif;
+    font-size: 13px;
+    background: #EBEBEB;
+}
+main {
+    width: 60%;
+    margin: 0 auto;
+}
+h1{
+    font-size: 28px;
+    color: #3BA5E5;
+    background: #F1F1F1;
+    font-weight: 100;
+    padding: 20px 5px;
+    border-bottom: 1px dashed #737373;
+}
+.top{
+    border-bottom: 1px dashed #737373;
+    padding-bottom: 10px;
+}
+h2{
+    font: 16px Tahoma, Helvetica, sans-serif;
+}
+h2, legend {
+    font-weight: bold;
+    margin-bottom: 0;
+}
+#search-box{
+}
+#search-box label{
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    position: relative;
+}
+#search-box input{
+    padding: 5px;
+    box-sizing: border-box;
+}
+#search-box label::after{
+    font-size: 16px;
+    position: absolute;
+    font-family: FontAwesome, serif;
+    content: "\f002";
+    top:26px;
+    left: 149px;
+}
+.top p{
+    width: calc(100% - 200px);
+    display:inline-block;
+    margin-right: 25px;
+}
+#search-box {
+    width: 150px;
+    display: inline-block;
+}
+.main-form{
+width: 100%;
+}
+fieldset{
+    margin: 0;
+}
+#personal-data, #dates{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    border: none;
+    margin-top: 20px;
+}
+#dates{
+    width: 50%;
+}
+#personal-data{
+    padding-left: 0;
+    margin-right: 22px;
+}
+input{
+    display: block;
+    margin-bottom: 10px;
+    padding: 5px;
+}

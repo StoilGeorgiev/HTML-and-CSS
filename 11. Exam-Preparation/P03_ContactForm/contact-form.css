@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=OpenSans:400,900');
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+body{
+    background: #E9F0F1;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+}
+form{
+    width: 50%;
+    margin: 50px auto;
+    border-radius: 10px;
+    background-color: #fff;
+    vertical-align: top;
+    box-shadow: 5px 10px 5px #999;
+}
+h1{
+    font-size: 18px;
+    height: 50px;
+    line-height: 50px;
+    background: #FF4D00;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 50px;
+}
+form div{
+    vertical-align: top;
+    display: inline-block;
+    width: 45%;
+    margin-left: 30px;
+}
+input{
+    width: 80%;
+    height:40px;
+    margin-left: 50px;
+    line-height: 40px;
+    border: 2px solid #EDEDED;
+    border-radius: 0 5px 5px 0;
+    margin-bottom: 10px;
+    position: relative;
+    top: -40px;
+}
+textarea{
+    position: relative;
+    top: -40px;
+    width: 78%;
+    height: 150px;
+    border: 2px solid #EDEDED;
+    border-radius: 0 5px 5px 0;
+    margin-left: 50px;
+    resize: none;
+}
+
+.toplabel{
+    display: block;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+.toplabel span{
+    color: #FF4D00;
+}
+
+.icon-holder{
+    display: inline-block;
+    font-family: "Font Awesome";
+    color: #565656;
+    background: #EDEDED;
+    text-align: center;
+    height:45px;
+    width: 50px;
+    line-height: 45px;
+    border-radius: 5px 0 0 5px;
+    position: relative;
+    top:5px;
+    left: -30px;
+    box-sizing: border-box;
+
+}
+button{
+    width: 100%;
+    height: 50px;
+    line-height:50px;
+    font-size: 20px;
+    border-radius: 0 0 10px 10px;
+    border: none;
+    color: #fff;
+    background-color: #FF4D00;
+    margin-bottom: 0;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #575757;
+}

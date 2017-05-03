@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Room Reservation</title>
+    <link rel="stylesheet" href="room-reservation.css">
+</head>
+<body>
+    <main>
+        <h1>Room Reservation</h1>
+        <section class="top">
+            <form action="#" method="post">
+            <h2>Basic Information</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at nibh varius odio sollicitudin
+                blandit nec eu elit. Suspendisse ac risus nunc, quis elementum lorem. Pellentesque vehicula egestas eros
+                nec commodo.</p>
+                <section id="search-box">
+                    <label for="search">Search</label><input type="text" id="search"/>
+                </section>
+            </form>
+        </section>
+        <section class="main-form">
+            <fieldset id="personal-data">
+                <legend>Personal Details</legend>
+                <input type="text" placeholder="First Name"/>
+                <input type="text" placeholder="Last Name"/>
+                <input type="email" placeholder="Enter a email"/>
+            </fieldset>
+            <fieldset id="dates">
+                <legend>Request a reservation</legend>
+                <div>
+                <label for="room-type">Select a room</label>
+                <select name="room" id="room-type">
+                    <option value="1">Room 3</option>
+                    <option value="2">Room 2</option>
+                    <option value="3">Room 1</option>
+                </select>
+                <label for="room-number">Number of Rooms</label>
+                <input type="text" id="room-number">
+                </div>
+                <div>
+                <label for="check-in">Check-In</label>
+                <input type="date" id="check-in">
+                <label for="check-out">Check-Out</label>
+                <input type="date" id="check-out">
+                </div>
+            </fieldset>
+        </section>
+        <section>
+            <button>Book Now</button>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+body {
+    background: #927057;
+    font-family: 'Oxygen', sans-serif;
+    color: #ffffff;
+}
+.image {
+    text-align: center;
+    margin-top: 50px;
+}
+.image > img {
+    border: 5px solid #d5c395;
+    height: 123px;
+}
+main{
+    width: 470px;
+    margin: 50px auto 0;
+    padding: 50px 60px 70px 60px;
+    background: #d5c395;
+}
+form::before{
+    position: absolute;
+    top:-30px;
+    left: 259px;
+    background: url("img/3.png") no-repeat 0 0;
+    display: block;
+    height: 35px;
+    width: 68px;
+    content:"";
+}
